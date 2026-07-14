@@ -41,6 +41,7 @@ export const PersistentCounter = ({ onCountAction }: PersistentCounterProps) => 
       reset: () => {
         setCount(0);
         window.localStorage.setItem(STORAGE_KEY, "0");
+        onCountAction?.(0);
       },
     }),
     [onCountAction],
