@@ -24,8 +24,8 @@ export type SwimmerBackgroundHandle = {
 };
 
 const EFFECTIVE_TARGET = 20;
-const MAX_SPAWN_AT_ZERO = 500;
-const MAX_ACTIVE_SWIMMERS = 500;
+const MAX_SPAWN_AT_ZERO = 100;
+const MAX_ACTIVE_SWIMMERS = 100;
 
 const X_START_MIN = -26;
 const X_START_RANGE = 18;
